@@ -1,0 +1,31 @@
+$dark: #333;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 3em;
+
+  .body {
+    position: absolute;
+    top: calc(50% - 110px);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: $dark;
+    padding: 42px 0;
+
+    .text {
+      margin-bottom: 20px;
+    }
+
+    button {
+      color: $dark;
+      border-color: $dark;
+      margin: 0 10px;
+      font-size: 0.5em;
+    }
+  }
+}
